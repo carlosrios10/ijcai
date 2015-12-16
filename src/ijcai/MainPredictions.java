@@ -34,7 +34,7 @@ public class MainPredictions {
 	}
 	
 	public static void predict() throws Exception {
-		// loads data and set class index
+		//// loads data and set class index
 		Instances train = IjcaiUtils.read(arffUserLog);
 //		train.deleteAttributeAt(0); // remove user_id
 		train.setClassIndex(train.numAttributes() - 1);
